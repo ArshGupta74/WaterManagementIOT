@@ -1,7 +1,6 @@
-Here is the Arduino code 
 
-```#include <Wire.h>
-
+Flash this code to your arduino using arduino IDE
+``` #include <Wire.h>
 // Pin definitions
 const int TBDPin = A0;
 #define echoPin 2
@@ -52,4 +51,7 @@ void loop() {
   }
 
   delay(1000);  // Delay for 1 second before the next reading
-}```
+}
+```
+
+
